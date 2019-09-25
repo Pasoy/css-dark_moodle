@@ -1,0 +1,115 @@
+#page-footer,.logo img {
+  display:none;
+}
+
+#region-main {
+  margin-bottom:40px;
+}
+
+.alert-danger {
+  background:#333;
+  color:#712b29;
+}
+
+.block .calendar_event_course {
+  background:#333 !important;
+  border-color:#333!important;
+}
+
+.btn,.btn-secondary,textarea,.form-control,#id_maildisplay,#id_country,#shortsearchbox,#username,#password,#search,#searchform_search,#jump-to-activity,.userprofile .profile_tree section,.editor_atto {
+  border-color:#222;
+  color:rgba(255,255,255,.5);
+}
+
+.card-title,h1,h2,h3,h4,h5,h6,li,p,.numberofcourse,#intro,td {
+  color:rgba(255,255,255,.5);
+}
+
+.dropdown-divider {
+  border-top-color:#262626!important;
+}
+
+.dropdown-menu {
+  background:#333 !important;
+  border:1px solid #333!important;
+}
+
+.dropdown-menu a {
+  background:#333 !important;
+  border:1px solid #333!important;
+  color:rgba(255,255,255,.5)!important;
+}
+
+.dropdown-menu a:hover {
+  background:#444 !important;
+  color:rgba(255,255,255,.8)!important;
+}
+
+.form-control:disabled,.form-control[readonly] {
+  background:#333;
+}
+
+.modal-content {
+  background:#222;
+  color:rgba(255,255,255,.5);
+}
+
+.modal-content,.moodle-dialogue-base .moodle-dialogue-wrap.moodle-dialogue-content,#td.day.hasevent {
+  background:#222;
+}
+
+.modal-footer {
+  border-top-color:#262626;
+}
+
+.modal-header {
+  background:#161616;
+  border-bottom-color:#161616;
+}
+
+.modal-header button span {
+  color:#444;
+}
+
+.moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd,.file-picker .fp-navbar {
+  border-bottom-color:#333;
+}
+
+.page-link {
+  background:#222;
+  border-color:#222;
+}
+
+div[class^='card-text'],div[class*=' card-text'],.col-form-label {
+  color:#4d4d4d!important;
+}
+
+div[id^='yui_'],div[id*=' yui_'],.border {
+  border-color:#111!important;
+}
+
+li[id^='section-'],li[id*=' section-'],td[class^='cell'],td[class*=' cell'],fieldset {
+  border-color:#262626!important;
+}
+
+span.site-name {
+  content:'Noodle der Spengergasse'!important;
+}
+
+td.latesubmission {
+  background:#111 !important;
+  color:#900!important;
+  font-weight:700;
+}
+
+td.submissiongraded,td.earlysubmission {
+  background:#111 !important;
+  color:#093!important;
+  font-weight:700;
+}
+
+td.submissionnotgraded,td.submissionstatussubmitted {
+  background:#111 !important;
+  color:rgba(255,255,255,.8)!important;
+  font-weight:700;
+}
