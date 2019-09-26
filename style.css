@@ -1,188 +1,197 @@
-#page {
-    background: #222;
-}
+/* ==UserStyle==
+@name           Dark Moodle
+@namespace      github.com/pasoy
+@version        0.0.1
+@description    Dark theme for Moodle Spengergasse
+@author         Pasoy
+==/UserStyle== */
+@-moz-document domain("moodle.spengergasse.at") {
+    #page {
+        background: #222;
+    }
 
-.btn,
-.btn-secondary,
-textarea,
-.form-control,
-#id_maildisplay,
-#id_country,
-#shortsearchbox,
-#username,
-#password,
-#search,
-#searchform_search,
-#jump-to-activity {
-    border-color: #222;
-    background: #222;
-    color: rgba(255, 255, 255, .5);
-}
+    .btn,
+    .btn-secondary,
+    textarea,
+    .form-control,
+    #id_maildisplay,
+    #id_country,
+    #shortsearchbox,
+    #username,
+    #password,
+    #search,
+    #searchform_search,
+    #jump-to-activity {
+        border-color: #222;
+        background: #222;
+        color: rgba(255, 255, 255, .5);
+    }
 
-.page-link {
-    background-color: #222;
-    border-color: #222;
-}
+    .page-link {
+        background-color: #222;
+        border-color: #222;
+    }
 
-.modal-content {
-    background-color: #222;
-    color: rgba(255, 255, 255, .5);
-}
+    .modal-content {
+        background-color: #222;
+        color: rgba(255, 255, 255, .5);
+    }
 
-.modal-header {
-    background-color: #161616;
-    border-bottom-color: #161616;
-}
+    .modal-header {
+        background-color: #161616;
+        border-bottom-color: #161616;
+    }
 
-.modal-footer {
-    border-top-color: #262626;
-}
+    .modal-footer {
+        border-top-color: #262626;
+    }
 
-.modal-header button span {
-    color: #444;
-}
+    .modal-header button span {
+        color: #444;
+    }
 
-.alert-danger {
-    background-color: #333;
-    color: #712b29;
-}
+    .alert-danger {
+        background-color: #333;
+        color: #712b29;
+    }
 
 
-span.site-name {
-    content: 'Noodle der Spengergasse' !important;
-}
+    span.site-name {
+        content: 'Noodle der Spengergasse' !important;
+    }
 
-.dropdown-divider {
-    border-top-color: #262626 !important;
-}
+    .dropdown-divider {
+        border-top-color: #262626 !important;
+    }
 
-.dropdown-menu {
-    border: 1px solid #333 !important;
-    background-color: #333 !important;
-}
+    .dropdown-menu {
+        border: 1px solid #333 !important;
+        background-color: #333 !important;
+    }
 
-.dropdown-menu a {
-    border: 1px solid #333 !important;
-    background-color: #333 !important;
-    color: rgba(255, 255, 255, .5) !important;
-}
+    .dropdown-menu a {
+        border: 1px solid #333 !important;
+        background-color: #333 !important;
+        color: rgba(255, 255, 255, .5) !important;
+    }
 
-.dropdown-menu a:hover {
-    background-color: #444 !important;
-    color: rgba(255, 255, 255, .8) !important;
-}
+    .dropdown-menu a:hover {
+        background-color: #444 !important;
+        color: rgba(255, 255, 255, .8) !important;
+    }
 
-.block .calendar_event_course {
-    background-color: #333 !important;
-    border-color: #333 !important;
-}
+    .block .calendar_event_course {
+        background-color: #333 !important;
+        border-color: #333 !important;
+    }
 
-td.submissionnotgraded {
-    background-color: #111 !important;
-    color: rgba(255, 255, 255, .8) !important;
-    font-weight: bold;
-}
+    td.submissionnotgraded {
+        background-color: #111 !important;
+        color: rgba(255, 255, 255, .8) !important;
+        font-weight: bold;
+    }
 
-td.submissiongraded,
-td.earlysubmission {
-    background-color: #111 !important;
-    color: #009933 !important;
-    font-weight: bold;
-}
+    td.submissiongraded,
+    td.earlysubmission {
+        background-color: #111 !important;
+        color: #009933 !important;
+        font-weight: bold;
+    }
 
-td.latesubmission {
-    background-color: #111 !important;
-    color: #900 !important;
-    font-weight: bold;
-}
+    td.latesubmission {
+        background-color: #111 !important;
+        color: #900 !important;
+        font-weight: bold;
+    }
 
-td.submissionstatussubmitted {
-    background-color: #111 !important;
-    color: rgba(255, 255, 255, .8) !important;
-    font-weight: bold;
-}
+    td.submissionstatussubmitted {
+        background-color: #111 !important;
+        color: rgba(255, 255, 255, .8) !important;
+        font-weight: bold;
+    }
 
-.userprofile .profile_tree section,
-.editor_atto {
-    border-color: #222;
-    background: #222;
-    color: rgba(255, 255, 255, .5);
-}
+    .userprofile .profile_tree section,
+    .editor_atto {
+        border-color: #222;
+        background: #222;
+        color: rgba(255, 255, 255, .5);
+    }
 
-.form-control:disabled,
-.form-control[readonly] {
-    background-color: #333333;
-}
+    .form-control:disabled,
+    .form-control[readonly] {
+        background-color: #333333;
+    }
 
-.modal-content,
-.moodle-dialogue-base .moodle-dialogue-wrap.moodle-dialogue-content {
-    background-color: #222;
-}
+    .modal-content,
+    .moodle-dialogue-base .moodle-dialogue-wrap.moodle-dialogue-content {
+        background-color: #222;
+    }
 
-.moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd {
-    border-bottom-color: #333;
-}
+    .moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd {
+        border-bottom-color: #333;
+    }
 
-.file-picker .fp-navbar {
-    border-bottom-color: #333;
-}
+    .file-picker .fp-navbar {
+        border-bottom-color: #333;
+    }
 
-div[id^='yui_'],
-div[id*=' yui_'],
-.border {
-    border-color: #111 !important;
-}
+    div[id^='yui_'],
+    div[id*=' yui_'],
+    .border {
+        border-color: #111 !important;
+    }
 
-div[class^='card-text'],
-div[class*=' card-text'],
-.col-form-label {
-    color: #4d4d4d !important;
-}
+    div[class^='card-text'],
+    div[class*=' card-text'],
+    .col-form-label {
+        color: #4d4d4d !important;
+    }
 
-li[id^='section-'],
-li[id*=' section-'],
-td[class^='cell'],
-td[class*=' cell'],
-fieldset {
-    border-color: #262626 !important;
-}
+    li[id^='section-'],
+    li[id*=' section-'],
+    td[class^='cell'],
+    td[class*=' cell'],
+    fieldset {
+        border-color: #262626 !important;
+    }
 
-#td.day.hasevent {
-    background-color: #222;
-}
+    #td.day.hasevent {
+        background-color: #222;
+    }
 
-#page-footer {
-    display: none;
-}
+    #page-footer {
+        display: none;
+    }
 
-#region-main,
-.card {
-    background: #111 !important;
-}
+    #region-main,
+    .card {
+        background: #111 !important;
+    }
 
-#region-main {
-    margin-bottom: 40px;
-}
+    #region-main {
+        margin-bottom: 40px;
+    }
 
-.card-title,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-li,
-p,
-.numberofcourse,
-#intro,
-td {
-    color: rgba(255, 255, 255, .5);
-}
+    .card-title,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    li,
+    p,
+    .numberofcourse,
+    #intro,
+    td {
+        color: rgba(255, 255, 255, .5);
+    }
 
-.logo img {
-    display: none
-}
+    .logo img {
+        display: none
+    }
 
-.navbar {
-    background: #111;
+    .navbar {
+        background: #111;
+    }
 }
