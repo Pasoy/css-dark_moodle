@@ -1,5 +1,5 @@
 #page {
-    background: #222;
+	background: #222;
 }
 
 .btn,
@@ -14,93 +14,93 @@ textarea,
 #search,
 #searchform_search,
 #jump-to-activity {
-    border-color: #222;
-    background: #222;
-    color: rgba(255, 255, 255, .5);
+	border-color: #222;
+	background: #222;
+	color: rgba(255, 255, 255, .5);
 }
 
 .page-link {
-    background-color: #222;
-    border-color: #222;
+	background-color: #222;
+	border-color: #222;
 }
 
 .modal-content {
-    background-color: #222;
-    color: rgba(255, 255, 255, .5);
+	background-color: #222;
+	color: rgba(255, 255, 255, .5);
 }
 
 .modal-header {
-    background-color: #161616;
-    border-bottom-color: #161616;
+	background-color: #161616;
+	border-bottom-color: #161616;
 }
 
 .modal-footer {
-    border-top-color: #262626;
+	border-top-color: #262626;
 }
 
 .modal-header button span {
-    color: #444;
+	color: #444;
 }
 
 .alert-danger {
-    background-color: #333;
-    color: #712b29;
+	background-color: #333;
+	color: #712b29;
 }
 
 .dropdown-divider {
-    border-top-color: #262626 !important;
+	border-top-color: #262626 !important;
 }
 
 .dropdown-menu {
-    border: 1px solid #333 !important;
-    background-color: #333 !important;
+	border: 1px solid #333 !important;
+	background-color: #333 !important;
 }
 
 .dropdown-menu a {
-    border: 1px solid #333 !important;
-    background-color: #333 !important;
-    color: rgba(255, 255, 255, .5) !important;
+	border: 1px solid #333 !important;
+	background-color: #333 !important;
+	color: rgba(255, 255, 255, .5) !important;
 }
 
 .dropdown-menu a:hover {
-    background-color: #444 !important;
-    color: rgba(255, 255, 255, .8) !important;
+	background-color: #444 !important;
+	color: rgba(255, 255, 255, .8) !important;
 }
 
 .block .calendar_event_course {
-    background-color: #333 !important;
-    border-color: #333 !important;
+	background-color: #333 !important;
+	border-color: #333 !important;
 }
 
 td.submissionnotgraded {
-    background-color: #111 !important;
-    color: rgba(255, 255, 255, .8) !important;
-    font-weight: bold;
+	background-color: #111 !important;
+	color: rgba(255, 255, 255, .8) !important;
+	font-weight: bold;
 }
 
 td.submissiongraded,
 td.earlysubmission {
-    background-color: #111 !important;
-    color: #009933 !important;
-    font-weight: bold;
+	background-color: #111 !important;
+	color: #009933 !important;
+	font-weight: bold;
 }
 
 td.latesubmission {
-    background-color: #111 !important;
-    color: #900 !important;
-    font-weight: bold;
+	background-color: #111 !important;
+	color: #900 !important;
+	font-weight: bold;
 }
 
 td.submissionstatussubmitted {
-    background-color: #111 !important;
-    color: rgba(255, 255, 255, .8) !important;
-    font-weight: bold;
+	background-color: #111 !important;
+	color: rgba(255, 255, 255, .8) !important;
+	font-weight: bold;
 }
 
 td.submissionlocked {
-    background-color: #111 !important;
-    color: #998700 !important;
-    font-weight: bold;
+	background-color: #111 !important;
+	color: #998700 !important;
+	font-weight: bold;
 }
 
 td.overdue {
@@ -109,39 +109,77 @@ td.overdue {
 
 .userprofile .profile_tree section,
 .editor_atto {
-    border-color: #222;
-    background: #222;
-    color: rgba(255, 255, 255, .5);
+	border-color: #222;
+	background: #222;
+	color: rgba(255, 255, 255, .5);
 }
 
 .form-control:disabled,
 .form-control[readonly] {
-    background-color: #333333;
+	background-color: #333333;
 }
 
 .modal-content,
 .moodle-dialogue-base .moodle-dialogue-wrap.moodle-dialogue-content {
-    background-color: #222;
+	background-color: #222;
 }
 
 .moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd {
-    border-bottom-color: #333;
+	border-bottom-color: #333;
 }
 
 .file-picker .fp-navbar {
-    border-bottom-color: #333;
+	border-bottom-color: #333;
+}
+
+.filemanager .fp-restrictions {
+	color: rgba(255, 255, 255, .5) !important;
+}
+
+.dndupload-message {
+	color: rgba(255, 255, 255, .4) !important;
+}
+
+.filemanager .fp-content {
+	min-height: 180px;
+}
+
+.filemanager.fm-noitems .fm-empty-container {
+	border: none;
+}
+
+.fp-iconview .fp-filename-field .fp-filename {
+	background: transparent;
+}
+
+.fp-iconview .fp-thumbnail {
+	border: none;
+}
+
+.fp-iconview .fp-thumbnail img {
+	border: none;
+}
+
+.fp-iconview .fp-file {
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, .4);
+}
+
+.form-filetypes-descriptions small {
+	color: rgba(255, 255, 255, .7) !important;
+	font-weight: bold;
 }
 
 div[id^='yui_'],
 div[id*=' yui_'],
 .border {
-    border-color: #111 !important;
+	border-color: #111 !important;
 }
 
 div[class^='card-text'],
 div[class*=' card-text'],
 .col-form-label {
-    color: #4d4d4d !important;
+	color: #4d4d4d !important;
 }
 
 li[id^='section-'],
@@ -149,24 +187,24 @@ li[id*=' section-'],
 td[class^='cell'],
 td[class*=' cell'],
 fieldset {
-    border-color: #262626 !important;
+	border-color: #262626 !important;
 }
 
 #td.day.hasevent {
-    background-color: #222;
+	background-color: #222;
 }
 
 #page-footer {
-    display: none;
+	display: none;
 }
 
 #region-main,
 .card {
-    background: #111 !important;
+	background: #111 !important;
 }
 
 #region-main {
-    margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 
 .card-title,
@@ -181,13 +219,43 @@ p,
 .numberofcourse,
 #intro,
 td {
-    color: rgba(255, 255, 255, .5);
+	color: rgba(255, 255, 255, .5);
+}
+
+h1,
+h2 {
+	font-weight: 500;
 }
 
 .logo img {
-    display: none
+	display: none
 }
 
 .navbar {
-    background: #111;
+	background: #111;
+}
+
+.path-mod-assign .submithelp {
+	color: rgba(255, 255, 255, .5);
+}
+
+.custom-select {
+	border-color: rgb(34, 34, 34);
+	background-color: rgb(34, 34, 34);
+	color: rgba(255, 255, 255, .5);
+}
+
+.path-calendar .maincalendar .calendar_event_course {
+	border-color: #262626 !important;
+	background-color: #262626 !important;
+}
+
+textarea {
+	color: rgba(255, 255, 255, .5) !important;
+}
+
+#searchform_query {
+	border-color: #262626 !important;
+	background-color: #262626 !important;
+	color: rgba(255, 255, 255, .5);
 }
